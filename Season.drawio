@@ -1,0 +1,120 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Season" id="MgoucxvhVRzqUZ7Nf5Wy">
+    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-1" target="R7ToI8o0_BYs8m2h_0KN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-1" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-2" target="R7ToI8o0_BYs8m2h_0KN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-2" value="Prompt user for number 1-12" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-4" target="R7ToI8o0_BYs8m2h_0KN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-4" value="Store integer&lt;div&gt;in $number&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="410.4" as="sourcePoint" />
+            <mxPoint x="295.4708520179372" y="100.04125560538117" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="410" />
+              <mxPoint x="220" y="110" />
+              <mxPoint x="296" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-21" value="3, 4, 5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7ToI8o0_BYs8m2h_0KN-14">
+          <mxGeometry x="0.8005" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-6" target="R7ToI8o0_BYs8m2h_0KN-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="410" />
+              <mxPoint x="220" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-22" value="6, 7, 8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7ToI8o0_BYs8m2h_0KN-15">
+          <mxGeometry x="0.7232" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-6" target="R7ToI8o0_BYs8m2h_0KN-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="410" />
+              <mxPoint x="220" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-23" value="9, 10, 11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7ToI8o0_BYs8m2h_0KN-16">
+          <mxGeometry x="0.5801" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-6" target="R7ToI8o0_BYs8m2h_0KN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-25" value="1, 2, 12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R7ToI8o0_BYs8m2h_0KN-17">
+          <mxGeometry x="0.2181" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-6" value="Find if $number is within range for which season" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-9" target="R7ToI8o0_BYs8m2h_0KN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-9" value="$season =&lt;div&gt;Spring&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-10" target="R7ToI8o0_BYs8m2h_0KN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-10" value="$season =&lt;div&gt;Summer&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-11" target="R7ToI8o0_BYs8m2h_0KN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-11" value="$season =&lt;div&gt;Fall&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-12" target="R7ToI8o0_BYs8m2h_0KN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-12" value="$season =&lt;div&gt;Winter&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-26" value="Find $month&lt;div&gt;based on&lt;/div&gt;&lt;div&gt;$number&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-31" value="Display current month and season" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-26" target="R7ToI8o0_BYs8m2h_0KN-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-33" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7ToI8o0_BYs8m2h_0KN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R7ToI8o0_BYs8m2h_0KN-31" target="R7ToI8o0_BYs8m2h_0KN-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
